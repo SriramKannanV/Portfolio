@@ -8,7 +8,7 @@ const Project = () => {
 
         <div className='row mt-5'>
           <div className='col-lg-6 project-img text-center'>
-            <img src="src/assets/pro1.png" alt="Project1" />
+            <img src="/pro1.png" alt="Project1" />
           </div>
 
           <div className='col-lg-6 align-content-center mt-4 mt-lg-0'>
@@ -31,7 +31,7 @@ const Project = () => {
 
         <div className='row mt-5 flex-row-reverse'>
           <div className='col-lg-6 project-img text-center'>
-            <img src="src/assets/pro2.png" alt="Project1" />
+            <img src="/pro2.png" alt="Project1" />
           </div>
 
           <div className='col-lg-6 align-content-center mt-4 mt-lg-0'>
@@ -54,7 +54,7 @@ const Project = () => {
 
         <div className='row mt-5'>
           <div className='col-lg-6 project-img text-center'>
-            <img src="src/assets/pro3.png" alt="Project1" />
+            <img src="/pro3.png" alt="Project1" />
           </div>
 
           <div className='col-lg-6 align-content-center mt-4 mt-lg-0'>

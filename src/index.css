@@ -44,6 +44,9 @@ button:hover{
     border: 3px solid #FFFFFF30;
     background: linear-gradient(125deg, var(--blue), var(--indigo), var(--green)) padding-box;
 }
+html{
+    scroll-padding-top: 100px;
+}
 
 /* NavBar */
 

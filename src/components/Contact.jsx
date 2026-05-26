@@ -2,7 +2,7 @@ import { FaLocationDot, FaEnvelope, FaLinkedin   } from "react-icons/fa6";
 import { useState } from "react";
 
 const Contact = () => {
-    const [result, setResult] = useState('');
+    const [result, setResult] = useState('Send Message');
 
     const onSubmit = async (event) => {
       event.preventDefault();
@@ -20,7 +20,7 @@ const Contact = () => {
       const data = await response.json();
 
       if(data.success){
-        setResult("Message Sent")
+        setResult("Send Message")
         event.target.reset();
       }else{
         setResult("Error", data)
@@ -58,10 +58,10 @@ const Contact = () => {
           </div>
 
           <form onSubmit={onSubmit} className="col-md-6 d-flex flex-column contact-msg">
-            <input name="name" type="text" placeholder="Your Name"/>
-            <input name="email" type="text" placeholder="Your Email"/>
-            <textarea name="message" placeholder="Your Message"/>
-            <button type="submit" className="contact-btn fw-bold fs-5 text-center align-content-center">Send Message</button>
+            <input name="name" type="text" placeholder="Your Name" required/>
+            <input name="email" type="text" placeholder="Your Email" required/>
+            <textarea name="message" placeholder="Your Message" required/>
+            <button type="submit" className="contact-btn fw-bold fs-5 text-center align-content-center">{result}</button>
           </form>
         </div>
       </div>
