@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='footer-section mt-5 pt-5'>
       <div className='container'>
-        <div className='row footer-links'>
+        <div className='row footer-links px-3 px-md-0'>
           <div className='col-md-6'>
             <h6 className='fw-bold'>SRIRAM KANNAN</h6>
             <h6 className='fs-6 fw-normal footer-desc'>Frontend & Full Stack Developer. <br /> Building scalable web apps.</h6>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         <div className='py-4'>
-          <p className='mb-0 text-center fw-semibold fs-5'>© 2026 Sriram Kannan. All rights reserved.</p>
+          <p className='mb-0 text-center fw-semibold fs-6'>© 2026 Sriram Kannan. All rights reserved.</p>
         </div>
       </div>
     </div>

@@ -33,7 +33,7 @@ const Contact = () => {
       <div className='container m-top'>
         <h3 className='text-center fw-bold'>Contact Me</h3>
 
-        <div className="row mt-5">
+        <div className="row mt-5 px-3 px-md-0">
           <div className="col-md-6 contact">
             <h4 className="fw-semibold">Let's Build Something Together.</h4>
             <p className="my-4">I'm currently open to new opportunities and collaborations. Whether you have a question, a project idea, or just want to connect, 

@@ -12,8 +12,8 @@ const Project = () => {
           </div>
 
           <div className='col-lg-6 align-content-center mt-4 mt-lg-0'>
-            <h4 className='fw-medium'>Zenith Task</h4>
-            <p className='project-p'>A sleek, interactive task management application featuring a modern glassmorphism UI. Built to handle dynamic state filtering and 
+            <h4 className='fw-medium px-3 px-md-0'>Zenith Task</h4>
+            <p className='project-p px-3 px-md-0'>A sleek, interactive task management application featuring a modern glassmorphism UI. Built to handle dynamic state filtering and 
               persistent local storage, ensuring a seamless user experience.</p>
 
             <div className='d-flex gap-3 project-tag'>
@@ -35,17 +35,17 @@ const Project = () => {
           </div>
 
           <div className='col-lg-6 align-content-center mt-4 mt-lg-0'>
-            <h4 className='fw-medium text-start text-lg-end'>FinTrack</h4>
-            <p className='project-p text-start text-lg-end'>A comprehensive financial tracking dashboard. It processes complex data to visualize income, 
+            <h4 className='fw-medium text-start text-lg-end px-3 px-md-0'>FinTrack</h4>
+            <p className='project-p text-start text-lg-end px-3 px-md-0'>A comprehensive financial tracking dashboard. It processes complex data to visualize income, 
               expenses, and category-wise spending trends dynamically through interactive charts and clean data tables.</p>
 
-            <div className='d-flex gap-3 project-tag justify-content-start justify-content-end'>
+            <div className='d-flex gap-3 project-tag justify-content-start justify-content-lg-end'>
               <p className='text-center align-content-center fs-7'>React.js</p>
               <p className='text-center align-content-center fs-7'>Bootstrap</p>
               <p className='text-center align-content-center fs-7'>Chart.Js</p>
             </div>
 
-            <div className='d-flex gap-lg-3 justify-content-start justify-content-end'>
+            <div className='d-flex gap-lg-3 justify-content-start justify-content-lg-end'>
               <button><a style={{color: "var(--text)"}} href='https://sriram-fintrack.netlify.app/' target='_blank' rel='noopener noreferrer'>Live Demo</a></button>
               <button><a style={{color: "var(--text)"}} href='https://github.com/SriramKannanV/FinTrack' target='_blank' rel='noopener noreferrer'>GitHub</a></button>
             </div>
@@ -58,8 +58,8 @@ const Project = () => {
           </div>
 
           <div className='col-lg-6 align-content-center mt-4 mt-lg-0'>
-            <h4 className='fw-medium'>API Data Explorer</h4>
-            <p className='project-p'>A robust frontend interface built to efficiently consume, route, and display complex RESTful data. It 
+            <h4 className='fw-medium px-3 px-md-0'>API Data Explorer</h4>
+            <p className='project-p px-3 px-md-0'>A robust frontend interface built to efficiently consume, route, and display complex RESTful data. It 
               seamlessly renders and organizes dynamic posts, user profiles, comments, and to-do lists from API.</p>
 
             <div className='d-flex gap-3 project-tag'>

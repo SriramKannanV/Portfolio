@@ -12,7 +12,7 @@ const About = () => {
           </div>
 
           <div className='col-lg-6 mt-3 mt-lg-0'>
-            <p className='about-p'>Hello! I'm Sriram Kannan, a passionate Full Stack Developer specializing in the MERN stack. <br/><br/> I focus on building responsive, 
+            <p className='about-p px-3 px-md-0'>Hello! I'm Sriram Kannan, a passionate Full Stack Developer specializing in the MERN stack. <br/><br/> I focus on building responsive, 
               scalable, and visually engaging web applications. With a strong foundation in React.js, I love translating complex problems into 
               clean, interactive, and user-friendly frontend interfaces while ensuring the backend runs smoothly. <br/><br/> Whether it's designing a sleek 
               glassmorphism UI for a task manager, building dynamic data dashboards, or architecting robust backend APIs, I thrive on bringing 
