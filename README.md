@@ -1,17 +1,43 @@
-# React + Vite
+# Sriram Kannan - Developer Portfolio 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal developer portfolio built to showcase my skills, experience, and full-stack projects. The application features a sleek dark theme, glassmorphism UI components, and smooth scrolling navigation.
 
-Currently, two official plugins are available:
+🔗 **[View Live Demo](#)** *(Replace with your actual hosted link, e.g., Vercel/Netlify)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* **Modern UI/UX:** Dark theme with custom gradient typography and consistent glassmorphism design elements.
+* **Responsive Design:** Fully mobile-responsive layout that adapts beautifully to all screen sizes.
+* **Smooth Scrolling:** Seamless navigation between sections (About, Skills, Projects, Contact) using React state and native DOM APIs.
+* **Working Contact Form:** Integrated with Web3Forms to receive messages directly to my email without a custom backend.
+* **Project Showcase:** Detailed cards featuring high-quality screenshots and tech-stack tags for my top MERN and React builds.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+* **Frontend:** React.js, Vite
+* **Styling:** Custom CSS, Bootstrap (Utility classes), Tailwind CSS concepts
+* **Form Handling:** Web3Forms API
+* **Deployment:** *(Add your deployment platform here, e.g., Vercel, Netlify, GitHub Pages)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Portfolio
+## 🚀 Featured Projects Highlighted
+
+* **Zenith Tasks:** A sleek task management app with dynamic state filtering and local storage.
+* **FinTrack:** A comprehensive financial tracking dashboard utilizing Chart.js for data visualization.
+* **API Data Explorer:** A robust frontend interface built to efficiently consume and route RESTful data.
+
+## 💻 Getting Started (Local Development)
+
+To run this project locally on your machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+2. **Navigate into the directory:**
+   ```bash
+   cd your-repo-name
+3. Install the dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm run dev
