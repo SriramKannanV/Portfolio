@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+:root{
+    --bg: #0B0F19;
+    --bg-secondary: #05080F;
+    --text: #FFFFFF;
+    --text-secondary: #94A3B8;
+
+    --blue: #60A5FA;
+    --indigo: #818CF8;
+    --green: #34D399;
+}
+body{
+    background-color: var(--bg);
+    color: var(--text);
+}
+.p-yaxis-10{
+    padding: 185px 0;
+}
+.m-top{
+    margin-top: 120px;
+}
+.fs-7{
+    font-size: 13px;
+}
+button{
+    height: 56px;
+    width: 200px;
+    margin: 16px;
+    border-radius: 100px;
+    border: 3px solid #FFFFFF10;
+    background-color: #ffffff05;
+    color: var(--text);
+    font-weight: medium;
+    transition: border 300ms ease-in-out;
+    transition: font-size 300ms ease-in-out;
+    box-shadow: 0 0 25px #000;
+}
+button:hover{
+    border: 3px solid #FFFFFF30;
+    background: linear-gradient(125deg, var(--blue), var(--indigo), var(--green)) padding-box;
+}
+
+/* NavBar */
+
+.nav-section{
+    min-height: 80px;
+    width: 100%;
+    background-color: var(--bg-secondary);
+}
+.nav-section a{
+    color: var(--text);
+}
+.nav-section a:hover{
+    color: var(--green);
+}
+.navbar-brand:focus,.nav-link:focus{
+    color: var(--text);
+}
+.menu-icon{
+    width: 60px;
+}
+
+/* hero-section */
+
+.hero-section{
+    position: relative;
+}
+.hero-section h1{
+    font-size: 64px;
+    font-weight: bolder;
+}
+.hero-section h3{
+    width: 40%;
+    margin: 0 auto;
+    background: linear-gradient(to right, var(--blue), var(--indigo), var(--green));
+    background-clip: text;
+    color: transparent;
+}
+.hero-section p{
+    max-width: 450px;
+    margin: auto;
+    color: var(--text-secondary);
+}
+.hero-element{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: var(--blue);
+    position: absolute;
+    top: 80px;
+    left: 16px;
+    filter: blur(150px);
+    z-index: -10;
+}
+.green{
+    background-color: var(--green);
+    position: absolute;
+    top: 420px;
+    left: 1300px;
+}
+
+/* About-section */
+
+.about-p{
+    color: var(--text-secondary);
+}
+.about-point p{
+    color: var(--green);
+    font-weight: bolder;
+}
+.about-img{
+    height: 386px;
+    width: 386px;
+    border-radius: 24px;
+    border: 3px solid #FFFFFF30;
+}
+
+/* Skills-section */
+
+.skills p{
+    height: 60px;
+    width: auto;
+    padding: 0 20px;
+    background-color: #ffffff10;
+    border: 3px solid #FFFFFF30;
+    border-radius: 100px;
+    font-size: 22px;
+    transition: background-color 300ms ease-in-out;
+}
+.skills p:hover{
+    border: 3px solid #FFFFFF30;
+    background: linear-gradient(125deg, var(--blue), var(--indigo), var(--green)) padding-box;
+}
+
+/* Project-section */
+
+.project-img img{
+    height: 100%;
+    width: 80%;
+    border-radius: 16px;
+    border: 3px solid #ffffff30;
+}
+.project-tag p{
+    height: 36px;
+    width: 140px;
+    background: #ffffff10;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    background: linear-gradient(var(--bg), var(--bg)) padding-box,
+                linear-gradient(125deg, var(--blue), var(--indigo), var(--green)) border-box;
+}
+.project-wrapper{
+    min-height: 280px;
+}
+.project-p{
+    color: var(--text-secondary);
+}
+
+/* Contact-section */
+
+.contact p{
+    color: var(--text-secondary);
+}
+.contact-icon{
+    color: var(--green);
+}
+.contact-msg input{
+    height: 60px;
+    width: 100%;
+    outline: none;
+    border: 3px solid #FFFFFF30;
+    background-color: #ffffff10;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    padding: 0 16px;
+    color: #FFFFFF;
+}
+.contact-msg textarea{
+    height: 120px;
+    width: 100%;
+    outline: none;
+    border: 3px solid #FFFFFF30;
+    background-color: #ffffff10;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    resize: none;
+}
+.contact-btn{
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(125deg, var(--blue), var(--indigo), var(--green));
+    color: var(--bg);
+}
+.contact-btn:hover{
+    border: none;
+    background: linear-gradient(-125deg, var(--blue), var(--indigo), var(--green));
+}
+
+/* Footer-section */
+
+.footer-section{
+    background-color: var(--bg-secondary);
+    border-top: 3px solid #ffffff30;
+}
+.footer-links p, a{
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+.footer-links a:hover{
+    color: var(--green);
+}
+.footer-desc{
+    color: var(--text-secondary);
+}
