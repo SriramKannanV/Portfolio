@@ -12,19 +12,20 @@ const Project = () => {
           </div>
 
           <div className='col-lg-6 align-content-center mt-4 mt-lg-0'>
-            <h4 className='fw-medium px-3 px-md-0'>Zenith Task</h4>
-            <p className='project-p px-3 px-md-0'>A sleek, interactive task management application featuring a modern glassmorphism UI. Built to handle dynamic state filtering and 
-              persistent local storage, ensuring a seamless user experience.</p>
+            <h4 className='fw-medium px-3 px-md-0'>Translator App</h4>
+            <p className='project-p px-3 px-md-0'>A modern, fully responsive text translation application built during my Frontend Development 
+              internship. The project converts English text into multiple global languages in real-time by integrating an external translation 
+              engine via RapidAPI.</p>
 
             <div className='d-flex gap-3 project-tag'>
               <p className='text-center align-content-center fs-7'>React.js</p>
-              <p className='text-center align-content-center fs-7'>Bootstrap</p>
-              <p className='text-center align-content-center fs-7'>Local Storage</p>
+              <p className='text-center align-content-center fs-7'>Tailwind Css</p>
+              <p className='text-center align-content-center fs-7'>Rapid API</p>
             </div>
 
             <div className='d-flex gap-3'>
-              <button><a style={{color: "var(--text)"}} href='https://reacttodolist-sriram.netlify.app/' target='_blank' rel='noopener noreferrer'>Live Demo</a></button>
-              <button><a style={{color: "var(--text)"}} href='https://github.com/SriramKannanV/React-To-Do-List' target='_blank' rel='noopener noreferrer'>GitHub</a></button>
+              <button><a style={{color: "var(--text)"}} href='https://translatorapp-sriram.netlify.app/' target='_blank' rel='noopener noreferrer'>Live Demo</a></button>
+              <button><a style={{color: "var(--text)"}} href='https://github.com/SriramKannanV/Translator-App' target='_blank' rel='noopener noreferrer'>GitHub</a></button>
             </div>
           </div>
         </div>
@@ -35,19 +36,20 @@ const Project = () => {
           </div>
 
           <div className='col-lg-6 align-content-center mt-4 mt-lg-0'>
-            <h4 className='fw-medium text-start text-lg-end px-3 px-md-0'>FinTrack</h4>
-            <p className='project-p text-start text-lg-end px-3 px-md-0'>A comprehensive financial tracking dashboard. It processes complex data to visualize income, 
-              expenses, and category-wise spending trends dynamically through interactive charts and clean data tables.</p>
+            <h4 className='fw-medium text-start text-lg-end px-3 px-md-0'>String Generator</h4>
+            <p className='project-p text-start text-lg-end px-3 px-md-0'>A modern, responsive random string and password generator built using 
+              React, Vite, and Tailwind CSS. Implements optimized state management with core React hooks (useState, useCallback, useEffect), 
+              UI context state persistence, and clean CSS-in-JS customization.</p>
 
             <div className='d-flex gap-3 project-tag justify-content-start justify-content-lg-end'>
               <p className='text-center align-content-center fs-7'>React.js</p>
-              <p className='text-center align-content-center fs-7'>Bootstrap</p>
-              <p className='text-center align-content-center fs-7'>Chart.Js</p>
+              <p className='text-center align-content-center fs-7'>Tailwind Css</p>
+              <p className='text-center align-content-center fs-7'>Local Storage</p>
             </div>
 
             <div className='d-flex gap-lg-3 justify-content-start justify-content-lg-end'>
-              <button><a style={{color: "var(--text)"}} href='https://sriram-fintrack.netlify.app/' target='_blank' rel='noopener noreferrer'>Live Demo</a></button>
-              <button><a style={{color: "var(--text)"}} href='https://github.com/SriramKannanV/FinTrack' target='_blank' rel='noopener noreferrer'>GitHub</a></button>
+              <button><a style={{color: "var(--text)"}} href='https://sriram-string-generator.netlify.app/' target='_blank' rel='noopener noreferrer'>Live Demo</a></button>
+              <button><a style={{color: "var(--text)"}} href='https://github.com/SriramKannanV/String-Generator' target='_blank' rel='noopener noreferrer'>GitHub</a></button>
             </div>
           </div>
         </div>

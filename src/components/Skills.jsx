@@ -25,6 +25,7 @@ const Skills = () => {
             <p className='text-center align-content-center'>Git & GitHub</p>
             <p className='text-center align-content-center'>Figma</p>
             <p className='text-center align-content-center'>RESTful APIs</p>
+            <p className='text-center align-content-center'>Tailwind Css</p>
           </div>
         </div>
       </div>
