@@ -18,7 +18,7 @@ const Skills = () => {
             <p className='text-center align-content-center'>JavaScript</p>
             <p className='text-center align-content-center'>HTML5 & CSS3</p>
             <p className='text-center align-content-center'>Bootstrap</p>
-            <p className='text-center align-content-center'>UI/UX Principles</p>
+            <p className='text-center align-content-center'>Redux</p>
           </div>
 
           <div className='d-flex justify-content-center gap-4 mb-4 flex-wrap'>

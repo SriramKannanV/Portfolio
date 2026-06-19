@@ -56,23 +56,24 @@ const Project = () => {
 
         <div className='row mt-5'>
           <div className='col-lg-6 project-img text-center'>
-            <img src="/pro3.png" alt="Project1" />
+            <img src="/pro3.jpg" alt="Project1" />
           </div>
 
           <div className='col-lg-6 align-content-center mt-4 mt-lg-0'>
-            <h4 className='fw-medium px-3 px-md-0'>API Data Explorer</h4>
-            <p className='project-p px-3 px-md-0'>A robust frontend interface built to efficiently consume, route, and display complex RESTful data. It 
-              seamlessly renders and organizes dynamic posts, user profiles, comments, and to-do lists from API.</p>
+            <h4 className='fw-medium px-3 px-md-0'>Leafy</h4>
+            <p className='project-p px-3 px-md-0'>A modern, high-performance plant e-commerce application built with React, Vite, and Redux 
+              Toolkit. Features smooth clientside dynamic routing, an elegant glassmorphic UI layout, responsive real-time search filtering, 
+              and state-persistent global shopping cart actions.</p>
 
             <div className='d-flex gap-3 project-tag'>
               <p className='text-center align-content-center fs-7'>React.js</p>
-              <p className='text-center align-content-center fs-7'>Bootstrap</p>
-              <p className='text-center align-content-center fs-7'>RESTful API</p>
+              <p className='text-center align-content-center fs-7'>Tailwind Css</p>
+              <p className='text-center align-content-center fs-7'>Redux</p>
             </div>
 
             <div className='d-flex gap-3'>
-              <button><a style={{color: "var(--text)"}} href='https://dummyapis.netlify.app/' target='_blank' rel='noopener noreferrer'>Live Demo</a></button>
-              <button><a style={{color: "var(--text)"}} href='https://github.com/SriramKannanV/APIs' target='_blank' rel='noopener noreferrer'>GitHub</a></button>
+              <button><a style={{color: "var(--text)"}} href='https://leafy-ecommerce.netlify.app/' target='_blank' rel='noopener noreferrer'>Live Demo</a></button>
+              <button><a style={{color: "var(--text)"}} href='https://github.com/SriramKannanV/Leafy' target='_blank' rel='noopener noreferrer'>GitHub</a></button>
             </div>
           </div>
         </div>
