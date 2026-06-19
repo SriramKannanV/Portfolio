@@ -117,8 +117,8 @@ html{
     font-weight: bolder;
 }
 .about-img{
-    height: 386px;
-    width: 386px;
+    max-width: 386px;
+    width: 330px;
     border-radius: 24px;
     border: 3px solid #FFFFFF30;
 }

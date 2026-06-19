@@ -4,7 +4,7 @@ const Hero = () => {
     <div id='home'>
       <div className='container p-yaxis-10 text-center hero-section'>
         <h1 className='mb-0'>SRIRAM KANNAN</h1>
-        <h3 className='fs-1 w-100 fw-bold mb-4'>Full Stack Developer</h3>
+        <h3 className='fs-2 w-100 fw-bold mb-4'>Aspiring Full Stack Developer</h3>
         <p className='mb-4 px-3 px-md-0'>Building responsive and scalable web applications using  modern technologies.</p>
 
         <div>
