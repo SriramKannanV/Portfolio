@@ -56,7 +56,11 @@ const Contact = () => {
 
               <div className="d-flex gap-2 align-items-center mb-3">
                 <FaLinkedin className="contact-icon" />
-                <a href="https://www.linkedin.com/in/sriram-kannan-v-11jan2005/">
+                <a
+                  href="https://www.linkedin.com/in/sriram-kannan-v1101"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   LinkedIn
                 </a>
               </div>
